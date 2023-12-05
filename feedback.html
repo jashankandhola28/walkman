@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="corp.html">Corporate Information</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h3>Support</h3>
+        
+    </header>
+    <main>
+   
+        <h2>Feedback Form</h2>
+        <form action="/submit-feedback" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button class="button" type="submit">Submit Feedback</button>
+        </form>
+
+        
+    </main>
+    <footer>
+        Copyright 2023 Jashan Kandhola. All rights reserved.
+    </footer>
+</body>
+</html>
